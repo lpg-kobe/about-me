@@ -50,12 +50,12 @@ export default class Home extends PureComponent {
                     <div className="col-xl-4 order-first">
                       <div className="start_intro">
                         <span className="RedTextColor">Hi, I' Am</span>
-                        <div className="glitch" data-text="Korty Doe">
-                          Korty Doe
-           </div>
+                        <div className="glitch" data-text="LPG-Pika">
+                          LPG-Pika
+                        </div>
                         <h4>
-                          <i className="fa fa-connectdevelop"></i>Designer / Developer</h4>
-                        <p>I am 27 years old front-end developer from Canada <br />London in the business since 2009!</p>
+                          <i className="fa fa-connectdevelop"></i>Frontend Developer</h4>
+                        <p>I am {new Date().getFullYear() - 1995} years old front-end developer from China <br />Becomming a web developer since 2017!</p>
                         <div className="start_btn">
                           <a href="#" title="" className="theme_btn RedBgShadow mr-4">
                             <i className="fa fa-long-arrow-down"></i>Download Resume</a>
@@ -139,7 +139,7 @@ export default class Home extends PureComponent {
               <div className="col-xl-9">
                 <div className="heading center">
                   <span className="PurpleTextColor">SOME COOL EXPERIENCE</span>
-                  <h1>10 years of <i>experience</i>
+                  <h1>{new Date().getFullYear() - 2017} years of <i>experience</i>
                   </h1>
                 </div>
                 <div className="exp_slider_sec">
@@ -283,10 +283,10 @@ export default class Home extends PureComponent {
                 </div>
                 <div className="skill_sec">
                   <div className="progress_sec">
-                    <h3>Wordpress/Php</h3>
+                    <h3>Node / Nginx / Apache</h3>
                     <div className="skill_shape">
-                      <div className="skill_bar RedBgShadow" style={{ width: '68%' }}>
-                        <span className="RedTextColor">68<i>%</i>
+                      <div className="skill_bar RedBgShadow" style={{ width: '62%' }}>
+                        <span className="RedTextColor">62<i>%</i>
                         </span>
                       </div>
                     </div>
@@ -294,26 +294,26 @@ export default class Home extends PureComponent {
                   <div className="progress_sec">
                     <h3>Html &amp; Css</h3>
                     <div className="skill_shape">
-                      <div className="skill_bar PurpleBgShadow" style={{ width: '55%' }}>
-                        <span className="PurpleTextColor">55<i>%</i>
+                      <div className="skill_bar PurpleBgShadow" style={{ width: '90%' }}>
+                        <span className="PurpleTextColor">90<i>%</i>
                         </span>
                       </div>
                     </div>
                   </div>
                   <div className="progress_sec">
-                    <h3>Web Designing</h3>
+                    <h3>Web Frontend</h3>
                     <div className="skill_shape">
-                      <div className="skill_bar SkyBlueBgShadow" style={{ width: '75%' }}>
-                        <span className="SkyBlueTextColor">75<i>%</i>
+                      <div className="skill_bar SkyBlueBgShadow" style={{ width: '85%' }}>
+                        <span className="SkyBlueTextColor">85<i>%</i>
                         </span>
                       </div>
                     </div>
                   </div>
                   <div className="progress_sec">
-                    <h3>JavaScript / jQuery</h3>
+                    <h3>JavaScript / React / Vue</h3>
                     <div className="skill_shape">
-                      <div className="skill_bar GreenBgShadow" style={{ width: '60%' }}>
-                        <span className="GreenTextColor">60<i>%</i>
+                      <div className="skill_bar GreenBgShadow" style={{ width: '85%' }}>
+                        <span className="GreenTextColor">85<i>%</i>
                         </span>
                       </div>
                     </div>
