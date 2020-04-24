@@ -1,0 +1,103 @@
+/* Here is your custom css styles. */
+pre {
+    background-color: #263238 !important;
+}
+.aplayer .aplayer-lrc p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px !important;
+}
+
+.aplayer .aplayer-lrc p.aplayer-lrc-current {
+  font-size: 15px;
+  color: #42b983;
+}
+
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0px !important;
+}.carousel-control {
+  width: 45px;
+  height: 45px;
+  line-height: 55px;
+  border-radius: 45px;
+  background: transparent;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#prev-cover {
+  position: absolute;
+  top: 48%;
+  left: 8px;
+}
+
+#next-cover {
+  position: absolute;
+  top: 48%;
+  right: 8px;
+}
+
+#prev-cover i {
+  margin-right: 3px;
+}
+
+#next-cover i {
+  margin-left: 3px;
+}
+
+.carousel-control:hover {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.carousel-control i {
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.nav-transparent .github-corner {
+  display: none !important;
+}
+
+.github-corner {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  border: 0;
+  transform: scale(1.1);
+}
+
+.github-corner svg {
+  color: #0f9d58;
+  fill: #fff;
+  height: 64px;
+  width: 64px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: a 0.56s ease-in-out;
+}
+
+.github-corner .octo-arm {
+  animation: none;
+}
+
+@keyframes a {
+  0%,
+  to {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}

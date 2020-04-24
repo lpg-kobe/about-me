@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import { Link } from 'react-router-dom'
 export default class Home extends PureComponent {
   render () {
     return [
@@ -57,10 +58,9 @@ export default class Home extends PureComponent {
                           <i className="fa fa-connectdevelop"></i>Frontend Developer</h4>
                         <p>I am {new Date().getFullYear() - 1995} years old front-end developer from China <br />Becomming a web developer since 2017!</p>
                         <div className="start_btn">
-                          <a href="#" title="" className="theme_btn RedBgShadow mr-4">
-                            <i className="fa fa-long-arrow-down"></i>Download Resume</a>
-                          <a href="#" title="" className="theme_btn  blank">
-                            <i className="fa PurpleTextColor  fa-lastfm"></i>Hire me</a>
+                          <Link to='/blog' className="theme_btn RedBgShadow mr-4">
+                            <i className="fa fa-long-arrow-down"></i>View My Blog
+                          </Link>
                         </div>
                       </div>
                     </div>
